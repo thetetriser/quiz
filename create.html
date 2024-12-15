@@ -1,0 +1,32 @@
+<!-- create.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Quiz</title>
+    <link rel="stylesheet" href="create.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create Questions</h1>
+        <button id="homeBtn" onclick="window.location.href='index.html'">Home</button>
+
+        <textarea id="questionInput" placeholder="Enter your question"></textarea>
+        <div class="options">
+            <input type="text" class="optionInput" placeholder="Option 1">
+            <input type="radio" name="correctAnswer" value="1"> Correct Answer
+            <input type="text" class="optionInput" placeholder="Option 2">
+            <input type="radio" name="correctAnswer" value="2"> Correct Answer
+            <input type="text" class="optionInput" placeholder="Option 3">
+            <input type="radio" name="correctAnswer" value="3"> Correct Answer
+            <input type="text" class="optionInput" placeholder="Option 4">
+            <input type="radio" name="correctAnswer" value="4"> Correct Answer
+        </div>
+        <button id="saveQuestion">Save Question</button>
+        <ul id="questionList"></ul>
+        <button id="saveQuiz">Save Quiz</button>
+    </div>
+    <script src="create.js"></script>
+</body>
+</html>

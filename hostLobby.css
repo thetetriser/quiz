@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f8e9;
+    text-align: center;
+    color: #333;
+}
+.container {
+    margin-top: 50px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin: 5px 0;
+    background-color: #c8e6c9;
+    padding: 10px;
+    border-radius: 5px;
+}
